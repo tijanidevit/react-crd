@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f4f5f7;
+  color: #101828;
+  padding: 30px 14.4px;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+#profile__img {
+  width: 88px;
+  height: 88px;
+  border-radius: 275px;
+}
+
+.text-bold {
+  font-weight: 700;
+  line-height: 30px;
+}
+
+#slack {
+  display: none;
+}
+
+.link {
+  width: 1152px;
+  height: 50px;
+  background: #eaecf0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #101828;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+.mt-2 {
+  margin-top: 20px;
+}
+.my-2 {
+  margin: 20px 0px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer img {
+  height: 32px;
+}
+.footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #667085;
+}
+
+@media only screen and (max-width: 600px) {
+  .link {
+    width: 90vw;
+    height: 68px;
+  }
+
+  .footer,
+  .social-icons {
+    display: none;
+  }
+}
