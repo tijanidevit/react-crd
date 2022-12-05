@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background: #e5e5e5;
+  font-family: "Avenir";
+}
+
+.brand-image {
+  margin-top: -66px;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23.86px;
+  color: #182754;
+}
+
+.product-card:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.blue-text {
+  color: #182754;
+}
+a {
+  text-decoration: none;
+  color: #182754;
+}
+
+.bold-text-900 {
+  font-weight: 900;
+}
+
+.cart-badge {
+  font-size: 12px;
+}
+
+footer {
+  background-color: #182754;
+  padding: 20px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 680px) {
+  .mobile-off {
+    visibility: hidden;
+  }
+}
